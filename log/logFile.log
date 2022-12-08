@@ -1,0 +1,406 @@
+[DEBUG][22-12-06 20:49:12.057][druid.sql.Connection]{conn-10001,procId-25} connected
+[DEBUG][22-12-06 20:49:12.064][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][22-12-06 20:49:12.243][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 178.3084 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 20:49:12.243][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][22-12-06 20:49:12.245][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][22-12-06 20:49:12.245][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][22-12-06 20:49:12.245][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][22-12-06 20:49:12.249][druid.sql.Connection]{conn-10002,procId-26} connected
+[DEBUG][22-12-06 20:49:12.250][druid.sql.Statement]{conn-10002, stmt-20001} created
+[DEBUG][22-12-06 20:49:12.251][druid.sql.Statement]{conn-10002, stmt-20001, rs-50001} query executed. 0.6282 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 20:49:12.251][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} open
+[DEBUG][22-12-06 20:49:12.251][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} Header: [1]
+[DEBUG][22-12-06 20:49:12.251][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} closed
+[DEBUG][22-12-06 20:49:12.251][druid.sql.Statement]{conn-10002, stmt-20001} closed
+[DEBUG][22-12-06 20:49:12.255][druid.sql.Connection]{conn-10003,procId-27} connected
+[DEBUG][22-12-06 20:49:12.255][druid.sql.Statement]{conn-10003, stmt-20002} created
+[DEBUG][22-12-06 20:49:12.256][druid.sql.Statement]{conn-10003, stmt-20002, rs-50002} query executed. 0.5325 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 20:49:12.256][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} open
+[DEBUG][22-12-06 20:49:12.256][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} Header: [1]
+[DEBUG][22-12-06 20:49:12.256][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} closed
+[DEBUG][22-12-06 20:49:12.256][druid.sql.Statement]{conn-10003, stmt-20002} closed
+[DEBUG][22-12-06 20:49:12.259][druid.sql.Connection]{conn-10004,procId-28} connected
+[DEBUG][22-12-06 20:49:12.259][druid.sql.Statement]{conn-10004, stmt-20003} created
+[DEBUG][22-12-06 20:49:12.260][druid.sql.Statement]{conn-10004, stmt-20003, rs-50003} query executed. 0.5228 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 20:49:12.260][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} open
+[DEBUG][22-12-06 20:49:12.260][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} Header: [1]
+[DEBUG][22-12-06 20:49:12.260][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} closed
+[DEBUG][22-12-06 20:49:12.260][druid.sql.Statement]{conn-10004, stmt-20003} closed
+[DEBUG][22-12-06 20:49:12.263][druid.sql.Connection]{conn-10005,procId-29} connected
+[DEBUG][22-12-06 20:49:12.264][druid.sql.Statement]{conn-10005, stmt-20004} created
+[DEBUG][22-12-06 20:49:12.264][druid.sql.Statement]{conn-10005, stmt-20004, rs-50004} query executed. 0.4739 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 20:49:12.264][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} open
+[DEBUG][22-12-06 20:49:12.264][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} Header: [1]
+[DEBUG][22-12-06 20:49:12.264][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} closed
+[DEBUG][22-12-06 20:49:12.264][druid.sql.Statement]{conn-10005, stmt-20004} closed
+[DEBUG][22-12-06 20:49:12.274][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][22-12-06 20:49:12.274][druid.sql.Statement]{conn-10005, stmt-20005} created
+[DEBUG][22-12-06 20:49:12.276][druid.sql.Statement]{conn-10005, stmt-20005, rs-50005} query executed. 1.0765 millis. select * from user
+[DEBUG][22-12-06 20:49:12.276][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} open
+[DEBUG][22-12-06 20:49:12.276][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} Header: [id, name, pwd]
+[DEBUG][22-12-06 20:49:12.279][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} Result: [2, zs, 123]
+[DEBUG][22-12-06 20:49:12.280][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} Result: [3, a3, b3]
+[DEBUG][22-12-06 20:49:12.281][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} Result: [4, yll, yll]
+[DEBUG][22-12-06 20:49:12.281][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} closed
+[DEBUG][22-12-06 20:49:12.281][druid.sql.Statement]{conn-10005, stmt-20005} closed
+[DEBUG][22-12-06 20:49:12.281][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][22-12-06 20:49:12.306][druid.sql.Connection]{conn-10001} closed
+[DEBUG][22-12-06 20:49:12.306][druid.sql.Connection]{conn-10002} closed
+[DEBUG][22-12-06 20:49:12.306][druid.sql.Connection]{conn-10003} closed
+[DEBUG][22-12-06 20:49:12.307][druid.sql.Connection]{conn-10004} closed
+[DEBUG][22-12-06 20:49:12.307][druid.sql.Connection]{conn-10005} closed
+[DEBUG][22-12-06 20:49:40.908][druid.sql.Connection]{conn-10001,procId-35} connected
+[DEBUG][22-12-06 20:49:40.914][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][22-12-06 20:49:41.068][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 152.7666 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 20:49:41.068][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][22-12-06 20:49:41.069][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][22-12-06 20:49:41.069][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][22-12-06 20:49:41.069][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][22-12-06 20:49:41.073][druid.sql.Connection]{conn-10002,procId-36} connected
+[DEBUG][22-12-06 20:49:41.073][druid.sql.Statement]{conn-10002, stmt-20001} created
+[DEBUG][22-12-06 20:49:41.074][druid.sql.Statement]{conn-10002, stmt-20001, rs-50001} query executed. 0.5366 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 20:49:41.074][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} open
+[DEBUG][22-12-06 20:49:41.074][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} Header: [1]
+[DEBUG][22-12-06 20:49:41.074][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} closed
+[DEBUG][22-12-06 20:49:41.074][druid.sql.Statement]{conn-10002, stmt-20001} closed
+[DEBUG][22-12-06 20:49:41.078][druid.sql.Connection]{conn-10003,procId-37} connected
+[DEBUG][22-12-06 20:49:41.078][druid.sql.Statement]{conn-10003, stmt-20002} created
+[DEBUG][22-12-06 20:49:41.079][druid.sql.Statement]{conn-10003, stmt-20002, rs-50002} query executed. 0.6359 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 20:49:41.079][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} open
+[DEBUG][22-12-06 20:49:41.079][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} Header: [1]
+[DEBUG][22-12-06 20:49:41.079][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} closed
+[DEBUG][22-12-06 20:49:41.079][druid.sql.Statement]{conn-10003, stmt-20002} closed
+[DEBUG][22-12-06 20:49:41.082][druid.sql.Connection]{conn-10004,procId-38} connected
+[DEBUG][22-12-06 20:49:41.082][druid.sql.Statement]{conn-10004, stmt-20003} created
+[DEBUG][22-12-06 20:49:41.083][druid.sql.Statement]{conn-10004, stmt-20003, rs-50003} query executed. 0.5296 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 20:49:41.083][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} open
+[DEBUG][22-12-06 20:49:41.083][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} Header: [1]
+[DEBUG][22-12-06 20:49:41.083][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} closed
+[DEBUG][22-12-06 20:49:41.083][druid.sql.Statement]{conn-10004, stmt-20003} closed
+[DEBUG][22-12-06 20:49:41.086][druid.sql.Connection]{conn-10005,procId-39} connected
+[DEBUG][22-12-06 20:49:41.086][druid.sql.Statement]{conn-10005, stmt-20004} created
+[DEBUG][22-12-06 20:49:41.087][druid.sql.Statement]{conn-10005, stmt-20004, rs-50004} query executed. 0.4743 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 20:49:41.087][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} open
+[DEBUG][22-12-06 20:49:41.087][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} Header: [1]
+[DEBUG][22-12-06 20:49:41.087][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} closed
+[DEBUG][22-12-06 20:49:41.087][druid.sql.Statement]{conn-10005, stmt-20004} closed
+[DEBUG][22-12-06 20:49:41.096][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][22-12-06 20:49:41.097][druid.sql.Statement]{conn-10005, stmt-20005} created
+[DEBUG][22-12-06 20:49:41.098][druid.sql.Statement]{conn-10005, stmt-20005, rs-50005} query executed. 0.989001 millis. select * from user
+[DEBUG][22-12-06 20:49:41.098][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} open
+[DEBUG][22-12-06 20:49:41.098][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} Header: [id, name, pwd]
+[DEBUG][22-12-06 20:49:41.101][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} Result: [2, zs, 123]
+[DEBUG][22-12-06 20:49:41.103][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} Result: [3, a3, b3]
+[DEBUG][22-12-06 20:49:41.103][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} Result: [4, yll, yll]
+[DEBUG][22-12-06 20:49:41.103][druid.sql.ResultSet]{conn-10005, stmt-20005, rs-50005} closed
+[DEBUG][22-12-06 20:49:41.103][druid.sql.Statement]{conn-10005, stmt-20005} closed
+[DEBUG][22-12-06 20:49:41.104][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][22-12-06 20:49:41.127][druid.sql.Connection]{conn-10001} closed
+[DEBUG][22-12-06 20:49:41.127][druid.sql.Connection]{conn-10002} closed
+[DEBUG][22-12-06 20:49:41.127][druid.sql.Connection]{conn-10003} closed
+[DEBUG][22-12-06 20:49:41.127][druid.sql.Connection]{conn-10004} closed
+[DEBUG][22-12-06 20:49:41.128][druid.sql.Connection]{conn-10005} closed
+[DEBUG][22-12-06 21:56:26.418][druid.sql.Connection]{conn-10001,procId-40} connected
+[DEBUG][22-12-06 21:56:26.421][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][22-12-06 21:56:26.514][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 90.8428 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 21:56:26.514][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][22-12-06 21:56:26.515][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][22-12-06 21:56:26.515][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][22-12-06 21:56:26.515][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][22-12-06 21:56:26.518][druid.sql.Connection]{conn-10002,procId-41} connected
+[DEBUG][22-12-06 21:56:26.518][druid.sql.Statement]{conn-10002, stmt-20001} created
+[DEBUG][22-12-06 21:56:26.519][druid.sql.Statement]{conn-10002, stmt-20001, rs-50001} query executed. 0.4705 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 21:56:26.519][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} open
+[DEBUG][22-12-06 21:56:26.519][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} Header: [1]
+[DEBUG][22-12-06 21:56:26.519][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} closed
+[DEBUG][22-12-06 21:56:26.519][druid.sql.Statement]{conn-10002, stmt-20001} closed
+[DEBUG][22-12-06 21:56:26.522][druid.sql.Connection]{conn-10003,procId-42} connected
+[DEBUG][22-12-06 21:56:26.522][druid.sql.Statement]{conn-10003, stmt-20002} created
+[DEBUG][22-12-06 21:56:26.522][druid.sql.Statement]{conn-10003, stmt-20002, rs-50002} query executed. 0.3693 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 21:56:26.522][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} open
+[DEBUG][22-12-06 21:56:26.522][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} Header: [1]
+[DEBUG][22-12-06 21:56:26.522][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} closed
+[DEBUG][22-12-06 21:56:26.522][druid.sql.Statement]{conn-10003, stmt-20002} closed
+[DEBUG][22-12-06 21:56:26.525][druid.sql.Connection]{conn-10004,procId-43} connected
+[DEBUG][22-12-06 21:56:26.525][druid.sql.Statement]{conn-10004, stmt-20003} created
+[DEBUG][22-12-06 21:56:26.525][druid.sql.Statement]{conn-10004, stmt-20003, rs-50003} query executed. 0.3754 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 21:56:26.525][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} open
+[DEBUG][22-12-06 21:56:26.525][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} Header: [1]
+[DEBUG][22-12-06 21:56:26.526][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} closed
+[DEBUG][22-12-06 21:56:26.526][druid.sql.Statement]{conn-10004, stmt-20003} closed
+[DEBUG][22-12-06 21:56:26.528][druid.sql.Connection]{conn-10005,procId-44} connected
+[DEBUG][22-12-06 21:56:26.528][druid.sql.Statement]{conn-10005, stmt-20004} created
+[DEBUG][22-12-06 21:56:26.529][druid.sql.Statement]{conn-10005, stmt-20004, rs-50004} query executed. 0.4683 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 21:56:26.529][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} open
+[DEBUG][22-12-06 21:56:26.529][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} Header: [1]
+[DEBUG][22-12-06 21:56:26.529][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} closed
+[DEBUG][22-12-06 21:56:26.529][druid.sql.Statement]{conn-10005, stmt-20004} closed
+[DEBUG][22-12-06 22:01:17.453][druid.sql.Connection]{conn-10001,procId-45} connected
+[DEBUG][22-12-06 22:01:17.456][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][22-12-06 22:01:17.549][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 91.005 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 22:01:17.549][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][22-12-06 22:01:17.550][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][22-12-06 22:01:17.550][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][22-12-06 22:01:17.550][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][22-12-06 22:01:17.553][druid.sql.Connection]{conn-10002,procId-46} connected
+[DEBUG][22-12-06 22:01:17.553][druid.sql.Statement]{conn-10002, stmt-20001} created
+[DEBUG][22-12-06 22:01:17.554][druid.sql.Statement]{conn-10002, stmt-20001, rs-50001} query executed. 0.4367 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 22:01:17.554][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} open
+[DEBUG][22-12-06 22:01:17.554][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} Header: [1]
+[DEBUG][22-12-06 22:01:17.554][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} closed
+[DEBUG][22-12-06 22:01:17.554][druid.sql.Statement]{conn-10002, stmt-20001} closed
+[DEBUG][22-12-06 22:01:17.556][druid.sql.Connection]{conn-10003,procId-47} connected
+[DEBUG][22-12-06 22:01:17.556][druid.sql.Statement]{conn-10003, stmt-20002} created
+[DEBUG][22-12-06 22:01:17.557][druid.sql.Statement]{conn-10003, stmt-20002, rs-50002} query executed. 0.3685 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 22:01:17.557][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} open
+[DEBUG][22-12-06 22:01:17.557][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} Header: [1]
+[DEBUG][22-12-06 22:01:17.557][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} closed
+[DEBUG][22-12-06 22:01:17.557][druid.sql.Statement]{conn-10003, stmt-20002} closed
+[DEBUG][22-12-06 22:01:17.560][druid.sql.Connection]{conn-10004,procId-48} connected
+[DEBUG][22-12-06 22:01:17.560][druid.sql.Statement]{conn-10004, stmt-20003} created
+[DEBUG][22-12-06 22:01:17.560][druid.sql.Statement]{conn-10004, stmt-20003, rs-50003} query executed. 0.3781 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 22:01:17.560][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} open
+[DEBUG][22-12-06 22:01:17.560][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} Header: [1]
+[DEBUG][22-12-06 22:01:17.560][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} closed
+[DEBUG][22-12-06 22:01:17.560][druid.sql.Statement]{conn-10004, stmt-20003} closed
+[DEBUG][22-12-06 22:01:17.563][druid.sql.Connection]{conn-10005,procId-49} connected
+[DEBUG][22-12-06 22:01:17.563][druid.sql.Statement]{conn-10005, stmt-20004} created
+[DEBUG][22-12-06 22:01:17.563][druid.sql.Statement]{conn-10005, stmt-20004, rs-50004} query executed. 0.4975 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 22:01:17.564][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} open
+[DEBUG][22-12-06 22:01:17.564][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} Header: [1]
+[DEBUG][22-12-06 22:01:17.564][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} closed
+[DEBUG][22-12-06 22:01:17.564][druid.sql.Statement]{conn-10005, stmt-20004} closed
+[DEBUG][22-12-06 23:29:19.413][druid.sql.Connection]{conn-10001,procId-50} connected
+[DEBUG][22-12-06 23:29:19.416][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][22-12-06 23:29:19.575][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 156.4168 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:29:19.575][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][22-12-06 23:29:19.576][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][22-12-06 23:29:19.576][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][22-12-06 23:29:19.576][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][22-12-06 23:29:19.579][druid.sql.Connection]{conn-10002,procId-51} connected
+[DEBUG][22-12-06 23:29:19.579][druid.sql.Statement]{conn-10002, stmt-20001} created
+[DEBUG][22-12-06 23:29:19.580][druid.sql.Statement]{conn-10002, stmt-20001, rs-50001} query executed. 0.493 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:29:19.580][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} open
+[DEBUG][22-12-06 23:29:19.580][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} Header: [1]
+[DEBUG][22-12-06 23:29:19.580][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} closed
+[DEBUG][22-12-06 23:29:19.580][druid.sql.Statement]{conn-10002, stmt-20001} closed
+[DEBUG][22-12-06 23:29:19.583][druid.sql.Connection]{conn-10003,procId-52} connected
+[DEBUG][22-12-06 23:29:19.583][druid.sql.Statement]{conn-10003, stmt-20002} created
+[DEBUG][22-12-06 23:29:19.583][druid.sql.Statement]{conn-10003, stmt-20002, rs-50002} query executed. 0.4075 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:29:19.583][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} open
+[DEBUG][22-12-06 23:29:19.583][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} Header: [1]
+[DEBUG][22-12-06 23:29:19.583][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} closed
+[DEBUG][22-12-06 23:29:19.583][druid.sql.Statement]{conn-10003, stmt-20002} closed
+[DEBUG][22-12-06 23:29:19.586][druid.sql.Connection]{conn-10004,procId-53} connected
+[DEBUG][22-12-06 23:29:19.586][druid.sql.Statement]{conn-10004, stmt-20003} created
+[DEBUG][22-12-06 23:29:19.587][druid.sql.Statement]{conn-10004, stmt-20003, rs-50003} query executed. 0.4793 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:29:19.587][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} open
+[DEBUG][22-12-06 23:29:19.587][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} Header: [1]
+[DEBUG][22-12-06 23:29:19.587][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} closed
+[DEBUG][22-12-06 23:29:19.587][druid.sql.Statement]{conn-10004, stmt-20003} closed
+[DEBUG][22-12-06 23:29:19.590][druid.sql.Connection]{conn-10005,procId-54} connected
+[DEBUG][22-12-06 23:29:19.590][druid.sql.Statement]{conn-10005, stmt-20004} created
+[DEBUG][22-12-06 23:29:19.590][druid.sql.Statement]{conn-10005, stmt-20004, rs-50004} query executed. 0.3884 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:29:19.590][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} open
+[DEBUG][22-12-06 23:29:19.590][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} Header: [1]
+[DEBUG][22-12-06 23:29:19.590][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} closed
+[DEBUG][22-12-06 23:29:19.590][druid.sql.Statement]{conn-10005, stmt-20004} closed
+[DEBUG][22-12-06 23:29:19.619][druid.sql.Connection]{conn-10001} closed
+[DEBUG][22-12-06 23:29:19.619][druid.sql.Connection]{conn-10002} closed
+[DEBUG][22-12-06 23:29:19.619][druid.sql.Connection]{conn-10003} closed
+[DEBUG][22-12-06 23:29:19.620][druid.sql.Connection]{conn-10004} closed
+[DEBUG][22-12-06 23:29:19.620][druid.sql.Connection]{conn-10005} closed
+[DEBUG][22-12-06 23:30:05.480][druid.sql.Connection]{conn-10001,procId-55} connected
+[DEBUG][22-12-06 23:30:05.483][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][22-12-06 23:30:05.647][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 162.569 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:30:05.648][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][22-12-06 23:30:05.648][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][22-12-06 23:30:05.649][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][22-12-06 23:30:05.649][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][22-12-06 23:30:05.652][druid.sql.Connection]{conn-10002,procId-56} connected
+[DEBUG][22-12-06 23:30:05.652][druid.sql.Statement]{conn-10002, stmt-20001} created
+[DEBUG][22-12-06 23:30:05.653][druid.sql.Statement]{conn-10002, stmt-20001, rs-50001} query executed. 0.4572 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:30:05.653][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} open
+[DEBUG][22-12-06 23:30:05.653][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} Header: [1]
+[DEBUG][22-12-06 23:30:05.653][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} closed
+[DEBUG][22-12-06 23:30:05.653][druid.sql.Statement]{conn-10002, stmt-20001} closed
+[DEBUG][22-12-06 23:30:05.655][druid.sql.Connection]{conn-10003,procId-57} connected
+[DEBUG][22-12-06 23:30:05.655][druid.sql.Statement]{conn-10003, stmt-20002} created
+[DEBUG][22-12-06 23:30:05.656][druid.sql.Statement]{conn-10003, stmt-20002, rs-50002} query executed. 0.5319 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:30:05.656][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} open
+[DEBUG][22-12-06 23:30:05.656][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} Header: [1]
+[DEBUG][22-12-06 23:30:05.656][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} closed
+[DEBUG][22-12-06 23:30:05.656][druid.sql.Statement]{conn-10003, stmt-20002} closed
+[DEBUG][22-12-06 23:30:05.659][druid.sql.Connection]{conn-10004,procId-58} connected
+[DEBUG][22-12-06 23:30:05.659][druid.sql.Statement]{conn-10004, stmt-20003} created
+[DEBUG][22-12-06 23:30:05.660][druid.sql.Statement]{conn-10004, stmt-20003, rs-50003} query executed. 0.4439 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:30:05.660][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} open
+[DEBUG][22-12-06 23:30:05.660][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} Header: [1]
+[DEBUG][22-12-06 23:30:05.660][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} closed
+[DEBUG][22-12-06 23:30:05.660][druid.sql.Statement]{conn-10004, stmt-20003} closed
+[DEBUG][22-12-06 23:30:05.662][druid.sql.Connection]{conn-10005,procId-59} connected
+[DEBUG][22-12-06 23:30:05.662][druid.sql.Statement]{conn-10005, stmt-20004} created
+[DEBUG][22-12-06 23:30:05.663][druid.sql.Statement]{conn-10005, stmt-20004, rs-50004} query executed. 0.3911 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:30:05.663][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} open
+[DEBUG][22-12-06 23:30:05.663][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} Header: [1]
+[DEBUG][22-12-06 23:30:05.663][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} closed
+[DEBUG][22-12-06 23:30:05.663][druid.sql.Statement]{conn-10005, stmt-20004} closed
+[DEBUG][22-12-06 23:30:05.693][druid.sql.Connection]{conn-10001} closed
+[DEBUG][22-12-06 23:30:05.693][druid.sql.Connection]{conn-10002} closed
+[DEBUG][22-12-06 23:30:05.694][druid.sql.Connection]{conn-10003} closed
+[DEBUG][22-12-06 23:30:05.694][druid.sql.Connection]{conn-10004} closed
+[DEBUG][22-12-06 23:30:05.694][druid.sql.Connection]{conn-10005} closed
+[DEBUG][22-12-06 23:32:57.164][druid.sql.Connection]{conn-10001,procId-60} connected
+[DEBUG][22-12-06 23:32:57.167][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][22-12-06 23:32:57.325][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 156.1192 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:32:57.325][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][22-12-06 23:32:57.326][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][22-12-06 23:32:57.326][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][22-12-06 23:32:57.326][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][22-12-06 23:32:57.330][druid.sql.Connection]{conn-10002,procId-61} connected
+[DEBUG][22-12-06 23:32:57.330][druid.sql.Statement]{conn-10002, stmt-20001} created
+[DEBUG][22-12-06 23:32:57.331][druid.sql.Statement]{conn-10002, stmt-20001, rs-50001} query executed. 0.581 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:32:57.331][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} open
+[DEBUG][22-12-06 23:32:57.331][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} Header: [1]
+[DEBUG][22-12-06 23:32:57.331][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} closed
+[DEBUG][22-12-06 23:32:57.331][druid.sql.Statement]{conn-10002, stmt-20001} closed
+[DEBUG][22-12-06 23:32:57.334][druid.sql.Connection]{conn-10003,procId-62} connected
+[DEBUG][22-12-06 23:32:57.334][druid.sql.Statement]{conn-10003, stmt-20002} created
+[DEBUG][22-12-06 23:32:57.335][druid.sql.Statement]{conn-10003, stmt-20002, rs-50002} query executed. 0.5074 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:32:57.335][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} open
+[DEBUG][22-12-06 23:32:57.335][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} Header: [1]
+[DEBUG][22-12-06 23:32:57.335][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} closed
+[DEBUG][22-12-06 23:32:57.335][druid.sql.Statement]{conn-10003, stmt-20002} closed
+[DEBUG][22-12-06 23:32:57.338][druid.sql.Connection]{conn-10004,procId-63} connected
+[DEBUG][22-12-06 23:32:57.338][druid.sql.Statement]{conn-10004, stmt-20003} created
+[DEBUG][22-12-06 23:32:57.338][druid.sql.Statement]{conn-10004, stmt-20003, rs-50003} query executed. 0.4413 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:32:57.338][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} open
+[DEBUG][22-12-06 23:32:57.339][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} Header: [1]
+[DEBUG][22-12-06 23:32:57.339][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} closed
+[DEBUG][22-12-06 23:32:57.339][druid.sql.Statement]{conn-10004, stmt-20003} closed
+[DEBUG][22-12-06 23:32:57.341][druid.sql.Connection]{conn-10005,procId-64} connected
+[DEBUG][22-12-06 23:32:57.341][druid.sql.Statement]{conn-10005, stmt-20004} created
+[DEBUG][22-12-06 23:32:57.342][druid.sql.Statement]{conn-10005, stmt-20004, rs-50004} query executed. 0.3961 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-06 23:32:57.342][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} open
+[DEBUG][22-12-06 23:32:57.342][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} Header: [1]
+[DEBUG][22-12-06 23:32:57.342][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} closed
+[DEBUG][22-12-06 23:32:57.342][druid.sql.Statement]{conn-10005, stmt-20004} closed
+[DEBUG][22-12-06 23:32:57.809][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][22-12-06 23:32:57.815][druid.sql.Statement]{conn-10005, pstmt-20005} created. select * from user
+[DEBUG][22-12-06 23:32:57.817][druid.sql.Statement]{conn-10005, pstmt-20005} Parameters : []
+[DEBUG][22-12-06 23:32:57.817][druid.sql.Statement]{conn-10005, pstmt-20005} Types : []
+[DEBUG][22-12-06 23:32:57.818][druid.sql.Statement]{conn-10005, pstmt-20005} executed. 1.0772 millis. select * from user
+[DEBUG][22-12-06 23:32:57.818][druid.sql.ResultSet]{conn-10005, pstmt-20005, rs-50005} open
+[DEBUG][22-12-06 23:32:57.819][druid.sql.ResultSet]{conn-10005, pstmt-20005, rs-50005} Header: [id, name, pwd]
+[DEBUG][22-12-06 23:32:57.821][druid.sql.ResultSet]{conn-10005, pstmt-20005, rs-50005} Result: [2, zs, 123]
+[DEBUG][22-12-06 23:32:57.826][druid.sql.ResultSet]{conn-10005, pstmt-20005, rs-50005} Result: [3, a3, b3]
+[DEBUG][22-12-06 23:32:57.826][druid.sql.ResultSet]{conn-10005, pstmt-20005, rs-50005} Result: [4, yll, yll]
+[DEBUG][22-12-06 23:32:57.826][druid.sql.ResultSet]{conn-10005, pstmt-20005, rs-50005} closed
+[DEBUG][22-12-06 23:32:57.828][druid.sql.Statement]{conn-10005, pstmt-20005} clearParameters. 
+[DEBUG][22-12-06 23:32:57.828][druid.sql.Statement]{conn-10005, stmt-20005} clearBatch. 
+[DEBUG][22-12-06 23:32:57.828][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][22-12-08 21:34:58.714][druid.sql.Connection]{conn-10001,procId-8} connected
+[DEBUG][22-12-08 21:34:58.717][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][22-12-08 21:34:58.918][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 199.0927 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:34:58.918][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][22-12-08 21:34:58.919][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][22-12-08 21:34:58.919][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][22-12-08 21:34:58.920][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][22-12-08 21:34:58.925][druid.sql.Connection]{conn-10002,procId-9} connected
+[DEBUG][22-12-08 21:34:58.925][druid.sql.Statement]{conn-10002, stmt-20001} created
+[DEBUG][22-12-08 21:34:58.926][druid.sql.Statement]{conn-10002, stmt-20001, rs-50001} query executed. 0.7035 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:34:58.926][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} open
+[DEBUG][22-12-08 21:34:58.926][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} Header: [1]
+[DEBUG][22-12-08 21:34:58.926][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} closed
+[DEBUG][22-12-08 21:34:58.926][druid.sql.Statement]{conn-10002, stmt-20001} closed
+[DEBUG][22-12-08 21:34:58.932][druid.sql.Connection]{conn-10003,procId-10} connected
+[DEBUG][22-12-08 21:34:58.932][druid.sql.Statement]{conn-10003, stmt-20002} created
+[DEBUG][22-12-08 21:34:58.932][druid.sql.Statement]{conn-10003, stmt-20002, rs-50002} query executed. 0.4728 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:34:58.932][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} open
+[DEBUG][22-12-08 21:34:58.932][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} Header: [1]
+[DEBUG][22-12-08 21:34:58.933][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} closed
+[DEBUG][22-12-08 21:34:58.933][druid.sql.Statement]{conn-10003, stmt-20002} closed
+[DEBUG][22-12-08 21:34:58.937][druid.sql.Connection]{conn-10004,procId-11} connected
+[DEBUG][22-12-08 21:34:58.938][druid.sql.Statement]{conn-10004, stmt-20003} created
+[DEBUG][22-12-08 21:34:58.938][druid.sql.Statement]{conn-10004, stmt-20003, rs-50003} query executed. 0.7153 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:34:58.939][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} open
+[DEBUG][22-12-08 21:34:58.939][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} Header: [1]
+[DEBUG][22-12-08 21:34:58.939][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} closed
+[DEBUG][22-12-08 21:34:58.939][druid.sql.Statement]{conn-10004, stmt-20003} closed
+[DEBUG][22-12-08 21:34:58.943][druid.sql.Connection]{conn-10005,procId-12} connected
+[DEBUG][22-12-08 21:34:58.943][druid.sql.Statement]{conn-10005, stmt-20004} created
+[DEBUG][22-12-08 21:34:58.944][druid.sql.Statement]{conn-10005, stmt-20004, rs-50004} query executed. 0.4659 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:34:58.944][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} open
+[DEBUG][22-12-08 21:34:58.944][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} Header: [1]
+[DEBUG][22-12-08 21:34:58.944][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} closed
+[DEBUG][22-12-08 21:34:58.944][druid.sql.Statement]{conn-10005, stmt-20004} closed
+[DEBUG][22-12-08 21:35:24.829][druid.sql.Connection]{conn-10001,procId-13} connected
+[DEBUG][22-12-08 21:35:24.832][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][22-12-08 21:35:25.002][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 168.0685 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:35:25.002][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][22-12-08 21:35:25.003][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][22-12-08 21:35:25.003][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][22-12-08 21:35:25.004][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][22-12-08 21:35:25.008][druid.sql.Connection]{conn-10002,procId-14} connected
+[DEBUG][22-12-08 21:35:25.008][druid.sql.Statement]{conn-10002, stmt-20001} created
+[DEBUG][22-12-08 21:35:25.009][druid.sql.Statement]{conn-10002, stmt-20001, rs-50001} query executed. 0.5123 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:35:25.009][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} open
+[DEBUG][22-12-08 21:35:25.009][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} Header: [1]
+[DEBUG][22-12-08 21:35:25.009][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} closed
+[DEBUG][22-12-08 21:35:25.009][druid.sql.Statement]{conn-10002, stmt-20001} closed
+[DEBUG][22-12-08 21:35:25.012][druid.sql.Connection]{conn-10003,procId-15} connected
+[DEBUG][22-12-08 21:35:25.013][druid.sql.Statement]{conn-10003, stmt-20002} created
+[DEBUG][22-12-08 21:35:25.013][druid.sql.Statement]{conn-10003, stmt-20002, rs-50002} query executed. 0.4642 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:35:25.013][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} open
+[DEBUG][22-12-08 21:35:25.013][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} Header: [1]
+[DEBUG][22-12-08 21:35:25.013][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} closed
+[DEBUG][22-12-08 21:35:25.013][druid.sql.Statement]{conn-10003, stmt-20002} closed
+[DEBUG][22-12-08 21:35:25.017][druid.sql.Connection]{conn-10004,procId-16} connected
+[DEBUG][22-12-08 21:35:25.017][druid.sql.Statement]{conn-10004, stmt-20003} created
+[DEBUG][22-12-08 21:35:25.018][druid.sql.Statement]{conn-10004, stmt-20003, rs-50003} query executed. 0.5631 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:35:25.018][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} open
+[DEBUG][22-12-08 21:35:25.018][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} Header: [1]
+[DEBUG][22-12-08 21:35:25.018][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} closed
+[DEBUG][22-12-08 21:35:25.018][druid.sql.Statement]{conn-10004, stmt-20003} closed
+[DEBUG][22-12-08 21:35:25.022][druid.sql.Connection]{conn-10005,procId-17} connected
+[DEBUG][22-12-08 21:35:25.022][druid.sql.Statement]{conn-10005, stmt-20004} created
+[DEBUG][22-12-08 21:35:25.023][druid.sql.Statement]{conn-10005, stmt-20004, rs-50004} query executed. 0.4867 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:35:25.023][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} open
+[DEBUG][22-12-08 21:35:25.023][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} Header: [1]
+[DEBUG][22-12-08 21:35:25.023][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} closed
+[DEBUG][22-12-08 21:35:25.023][druid.sql.Statement]{conn-10005, stmt-20004} closed
+[DEBUG][22-12-08 21:36:12.868][druid.sql.Connection]{conn-10001,procId-18} connected
+[DEBUG][22-12-08 21:36:12.871][druid.sql.Statement]{conn-10001, stmt-20000} created
+[DEBUG][22-12-08 21:36:13.039][druid.sql.Statement]{conn-10001, stmt-20000, rs-50000} query executed. 166.8345 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:36:13.039][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} open
+[DEBUG][22-12-08 21:36:13.040][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} Header: [1]
+[DEBUG][22-12-08 21:36:13.041][druid.sql.ResultSet]{conn-10001, stmt-20000, rs-50000} closed
+[DEBUG][22-12-08 21:36:13.041][druid.sql.Statement]{conn-10001, stmt-20000} closed
+[DEBUG][22-12-08 21:36:13.045][druid.sql.Connection]{conn-10002,procId-19} connected
+[DEBUG][22-12-08 21:36:13.046][druid.sql.Statement]{conn-10002, stmt-20001} created
+[DEBUG][22-12-08 21:36:13.046][druid.sql.Statement]{conn-10002, stmt-20001, rs-50001} query executed. 0.4739 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:36:13.046][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} open
+[DEBUG][22-12-08 21:36:13.046][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} Header: [1]
+[DEBUG][22-12-08 21:36:13.046][druid.sql.ResultSet]{conn-10002, stmt-20001, rs-50001} closed
+[DEBUG][22-12-08 21:36:13.046][druid.sql.Statement]{conn-10002, stmt-20001} closed
+[DEBUG][22-12-08 21:36:13.050][druid.sql.Connection]{conn-10003,procId-20} connected
+[DEBUG][22-12-08 21:36:13.050][druid.sql.Statement]{conn-10003, stmt-20002} created
+[DEBUG][22-12-08 21:36:13.050][druid.sql.Statement]{conn-10003, stmt-20002, rs-50002} query executed. 0.4517 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:36:13.050][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} open
+[DEBUG][22-12-08 21:36:13.050][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} Header: [1]
+[DEBUG][22-12-08 21:36:13.050][druid.sql.ResultSet]{conn-10003, stmt-20002, rs-50002} closed
+[DEBUG][22-12-08 21:36:13.051][druid.sql.Statement]{conn-10003, stmt-20002} closed
+[DEBUG][22-12-08 21:36:13.053][druid.sql.Connection]{conn-10004,procId-21} connected
+[DEBUG][22-12-08 21:36:13.054][druid.sql.Statement]{conn-10004, stmt-20003} created
+[DEBUG][22-12-08 21:36:13.054][druid.sql.Statement]{conn-10004, stmt-20003, rs-50003} query executed. 0.5042 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:36:13.054][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} open
+[DEBUG][22-12-08 21:36:13.054][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} Header: [1]
+[DEBUG][22-12-08 21:36:13.054][druid.sql.ResultSet]{conn-10004, stmt-20003, rs-50003} closed
+[DEBUG][22-12-08 21:36:13.054][druid.sql.Statement]{conn-10004, stmt-20003} closed
+[DEBUG][22-12-08 21:36:13.057][druid.sql.Connection]{conn-10005,procId-22} connected
+[DEBUG][22-12-08 21:36:13.057][druid.sql.Statement]{conn-10005, stmt-20004} created
+[DEBUG][22-12-08 21:36:13.058][druid.sql.Statement]{conn-10005, stmt-20004, rs-50004} query executed. 0.6524 millis. SELECT 1 FROM DUAL
+[DEBUG][22-12-08 21:36:13.058][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} open
+[DEBUG][22-12-08 21:36:13.058][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} Header: [1]
+[DEBUG][22-12-08 21:36:13.058][druid.sql.ResultSet]{conn-10005, stmt-20004, rs-50004} closed
+[DEBUG][22-12-08 21:36:13.059][druid.sql.Statement]{conn-10005, stmt-20004} closed
